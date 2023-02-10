@@ -2,7 +2,7 @@
 lock '3.5.0'
 
 set :application, 'urlshortner'
-set :repo_url, 'git@github.com:rkmmanivannan/rails-ec2-deploy.git' # Edit this to match your repository
+set :repo_url, 'git@github.com:arunbeniwal008/rails-aws-ec2-deploy.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/deploy/urlshortner'
 set :pty, true
@@ -26,6 +26,7 @@ set :puma_workers, 0
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true
 set :puma_preload_app, false
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
